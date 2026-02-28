@@ -1,0 +1,8 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="XIGUASecurityAntiVirusMain/XIGUASecurityAntiVirusMain.vcxproj" Id="5b546919-132e-40f4-a2fa-3e269bedee09" />
+  <Project Path="XIGUASecurityAntiVirusHook/XIGUASecurityAntiVirusHook.vcxproj" />
+</Solution>
