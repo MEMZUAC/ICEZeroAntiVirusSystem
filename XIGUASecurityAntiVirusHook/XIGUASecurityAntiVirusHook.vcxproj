@@ -19,13 +19,13 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
     <ConfigurationType>DynamicLibrary</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v143</PlatformToolset>
+    <PlatformToolset>v145</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
     <ConfigurationType>DynamicLibrary</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
-    <PlatformToolset>v143</PlatformToolset>
+    <PlatformToolset>v145</PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
@@ -42,7 +42,7 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <IncludePath>$(IncludePath);../../Detours-main/src</IncludePath>
+    <IncludePath>$(IncludePath);../lib/</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <IncludePath>$(IncludePath);../../Detours-main/src</IncludePath>
@@ -52,7 +52,7 @@
       <WarningLevel>Level3</WarningLevel>
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;XIGUASECURITYANTIVIRUSHOOK_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <ConformanceMode>true</ConformanceMode>
+      <ConformanceMode>false</ConformanceMode>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -77,16 +77,16 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="XIGUASecurityAntiVirusHook.cpp" />
-    <ClCompile Include="../../Detours-main/src/creatwth.cpp" />
-    <ClCompile Include="../../Detours-main/src/detours.cpp" />
-    <ClCompile Include="../../Detours-main/src/disasm.cpp" />
-    <ClCompile Include="../../Detours-main/src/disolarm.cpp" />
-    <ClCompile Include="../../Detours-main/src/disolarm64.cpp" />
-    <ClCompile Include="../../Detours-main/src/disolia64.cpp" />
-    <ClCompile Include="../../Detours-main/src/disolx64.cpp" />
-    <ClCompile Include="../../Detours-main/src/disolx86.cpp" />
-    <ClCompile Include="../../Detours-main/src/image.cpp" />
-    <ClCompile Include="../../Detours-main/src/modules.cpp" />
+    <ClCompile Include="../lib/creatwth.cpp" />
+    <ClCompile Include="../lib/detours.cpp" />
+    <ClCompile Include="../lib/disasm.cpp" />
+    <ClCompile Include="../lib/disolarm.cpp" />
+    <ClCompile Include="../lib/disolarm64.cpp" />
+    <ClCompile Include="../lib/disolia64.cpp" />
+    <ClCompile Include="../lib/disolx64.cpp" />
+    <ClCompile Include="../lib/disolx86.cpp" />
+    <ClCompile Include="../lib/image.cpp" />
+    <ClCompile Include="../lib/modules.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

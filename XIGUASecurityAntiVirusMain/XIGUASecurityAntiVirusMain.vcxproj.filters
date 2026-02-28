@@ -18,5 +18,43 @@
     <ClCompile Include="XIGUASecurityAntiVirusMain.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="../lib/creatwth.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="../lib/detours.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="../lib/disasm.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="../lib/disolarm.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="../lib/disolarm64.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="../lib/disolia64.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="../lib/disolx64.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="../lib/disolx86.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="../lib/image.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="../lib/modules.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="../lib/detours.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="../lib/detver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
